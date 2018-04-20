@@ -1,0 +1,13 @@
+2018.4.18
+新建BaseActivit类，作为所有活动的父类，重写onCreate(), onDestroy()
+新建ActivityCollector类，管理活动。其他活动可以调用finishALL()直接退出程序
+4.19
+toolbar,标题栏
+nav_menu, nav_header，滑动菜单
+（先试试，想在每个界面都有标题栏和活动菜单，功能能完善后可以把它们写入baseActivity）
+4.20
+GirdView，图片填充主页
+InputDialog，点击加号弹窗输入
+
+
+
