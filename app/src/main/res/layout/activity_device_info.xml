@@ -21,11 +21,39 @@
 
     <TextView
         android:id="@+id/deviceinfo_name"
-        android:layout_margin="10dp"
+        android:layout_margin="5dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="deviceinfo_name"
         android:layout_gravity="center"
         android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/device_recieve_text"
+        android:layout_margin="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:background="#9AC0CD"
+        android:layout_gravity="center"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/device_input_text"
+        android:layout_margin="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Say something to your buddy!"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/device_sendmsgbutton"
+        android:layout_margin="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:layout_gravity="center"/>
 
 </LinearLayout>

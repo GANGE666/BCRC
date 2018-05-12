@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Test HTML</title>
+
+
+
+</head>
+
+<body>
+<p id="log">NULL LOG</p>
+<p>Name:</p>
+<p id="name">NULL</p>
+<p>Message:</p>
+<p id="msg">NULL</p>
+<p>Statu:</p>
+<p id="statu">false</p>
+
+<script>
+   function setInfo(jsonObj){
+
+       var name = jsonObj.name;
+       var msg1 = jsonObj.msg;
+
+      document.getElementById("log").innerHTML = "" + msg1;
+      document.getElementById(name).innerHTML = "" + msg1;
+   }
+</script>
+</body>
+
+</html>

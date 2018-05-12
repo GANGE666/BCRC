@@ -27,6 +27,7 @@ import java.io.PrintStream;
 import java.net.Socket;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Properties;
 
 public class Index extends BaseActivity {
 
@@ -153,14 +154,17 @@ public class Index extends BaseActivity {
 
         new Thread(new Runnable() {
             private Socket s;
-            private String serverAddress = "63.209.35.169";
+            Properties proper = ProperTies.getProperties(getApplicationContext());
+
+            private String serverAddress = proper.getProperty("DeviceAdd_ServerIP");
+            private int serverPort = Integer.valueOf(proper.getProperty("DeviceAdd_ServerPort"));
             private BufferedReader br = null;
             //private uid;
 
             @Override
             public void run() {
                 try {
-                    s = new Socket(serverAddress, 30000);
+                    s = new Socket(serverAddress, serverPort);
                     Log.d("AddDevice", "Connected " + s.getInetAddress().toString());
                     br = new BufferedReader(new InputStreamReader(s.getInputStream()));
 

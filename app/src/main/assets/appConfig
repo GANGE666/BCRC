@@ -1,0 +1,9 @@
+DeviceAdd_ServerIP = 63.209.35.169
+DeviceAdd_ServerPort = 30000
+P2P_ServerIP = 63.209.35.169
+P2P_ServerPort = 30000
+MYUID = 1234567890
+
+#test data
+TargetUID = 38327493
+
