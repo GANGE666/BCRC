@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/color_white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="25"
+        android:background="@color/color_lin_2">
+
+        <ImageView
+            android:id="@+id/iv_headimg_mohu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/head_mohu" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="8" />
+
+            <ImageView
+                android:id="@+id/iv_avatar"
+                android:layout_width="@dimen/icon_108"
+                android:layout_height="0dp"
+                android:layout_weight="18" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="12"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/tv_user_nick_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16.5dp"
+                    android:textColor="@color/color_white"
+                    android:textSize="@dimen/information_font" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="33dp"
+            android:layout_height="31dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="23dp"
+            android:layout_marginTop="31dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/mess"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="30"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ll_creadits_exchange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16.5dp"
+            android:background="@drawable/bg_clickable_white"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <!--<ImageView
+            android:layout_width="@dimen/icon_4"
+            android:layout_height="@dimen/icon_4"
+            android:src="@drawable/my_account_manage"/>-->
+
+            <TextView
+                android:id="@+id/tv_redeem_point"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="个人信息"
+                android:textColor="@color/color_text_dark"
+                android:textSize="@dimen/information_font" />
+
+            <!--<ImageView
+            android:layout_width="@dimen/icon_2"
+            android:layout_height="@dimen/icon_2"
+            android:src="@drawable/ic_arrow_light"/>-->
+        </LinearLayout>
+
+        <!--<View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line"
+        android:background="@color/color_lin" />-->
+
+
+        <LinearLayout
+            android:id="@+id/ll_about_us"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16.5dp"
+            android:background="@drawable/bg_clickable_white"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="帮助"
+                android:textColor="@color/color_text_dark"
+                android:textSize="@dimen/information_font" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tv_get_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16.5dp"
+            android:background="@drawable/bg_clickable_white"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="设置"
+                android:textColor="@color/color_text_dark"
+                android:textSize="@dimen/information_font" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0"
+        android:orientation="vertical">
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:visibility="gone"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+        <Button
+            android:id="@+id/exit_app"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="退出登陆"
+            android:textSize="@dimen/big_buttons_font"
+            android:textColor="@color/color_white"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_exit"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"/>
+
+</LinearLayout>

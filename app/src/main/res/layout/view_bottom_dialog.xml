@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/popup_shade"
+    >
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/view_empty_space"
+        android:layout_weight="1"/>
+    <!--mdpi屏幕的2/3的高度-->
+    <LinearLayout
+        android:id="@+id/ll_content"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:background="@color/color_bg"
+        android:orientation="vertical">
+
+        <include layout="@layout/header_layout"/>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/fl_container"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

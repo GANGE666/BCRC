@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--RefreshableListView.class-->
+    <declare-styleable name="RefreshableListView">
+        <attr name="dividerColor" format="reference" />
+        <attr name="dividerDimension" format="dimension|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="MaskView">
+        <attr name="windowShape" format="enum">
+
+            <enum name="square" value="0" />
+
+            <enum name="rectangle" value="1" />
+        </attr>
+
+        <attr name="windowLength" format="dimension|fraction|float" />
+
+        <attr name="windowHeight" format="dimension|reference" />
+
+        <attr name="windowWidth" format="dimension|reference" />
+
+        <attr name="maskColor" format="color|reference" />
+
+    </declare-styleable>
+
+</resources>

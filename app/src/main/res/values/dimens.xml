@@ -1,0 +1,111 @@
+<resources>
+    <!--常用dp单位-->
+    <dimen name="dp_0.5">0.5dp</dimen>
+    <dimen name="dp_1">1dp</dimen>
+    <dimen name="dp_2">2dp</dimen>
+    <dimen name="dp_4">4dp</dimen>
+    <dimen name="dp_5">5dp</dimen>
+    <dimen name="dp_6">6dp</dimen>
+    <dimen name="dp_8">8dp</dimen>
+    <dimen name="dp_10">10dp</dimen>
+    <dimen name="dp_11">11dp</dimen>
+    <dimen name="dp_12">12dp</dimen>
+    <dimen name="dp_14">14dp</dimen>
+    <dimen name="dp_15">15dp</dimen>
+    <dimen name="dp_20">20dp</dimen>
+    <dimen name="dp_25">25dp</dimen>
+    <dimen name="dp_30">30dp</dimen>
+    <dimen name="dp_30.5">30.5dp</dimen>
+    <dimen name="dp_35">35dp</dimen>
+    <dimen name="dp_36">36dp</dimen>
+    <dimen name="dp_44">44dp</dimen>
+    <dimen name="dp_50">50dp</dimen>
+    <dimen name="dp_65">65dp</dimen>
+    <!--常用sp单位-->
+
+    <!-- 新版字体大小统一 33sp 27sp 21sp 18sp -->
+
+    <dimen name="top_title_font">33sp</dimen>
+    <dimen name="big_buttons_font">22sp</dimen>
+
+    <dimen name="register_font">14sp</dimen>
+    <dimen name="register_small_font">12sp</dimen>
+
+    <dimen name="invite_font">21sp</dimen>
+
+    <dimen name="fridend_font">18sp</dimen>
+
+    <dimen name="activity_title_font">33sp</dimen>
+    <dimen name="activity_text_font">22sp</dimen>
+    <dimen name="activity_stitle_font">27sp</dimen>
+    <dimen name="activity_tag_font">18sp</dimen>
+    <dimen name="activity_small_font">18sp</dimen>
+
+    <dimen name="information_font">13sp</dimen>
+
+
+
+    <!--常规字体-->
+    <dimen name="play_font">14sp</dimen>
+    <dimen name="font_1">12sp</dimen>
+    <dimen name="font_2">14sp</dimen>
+    <dimen name="font_3">16sp</dimen>
+    <dimen name="font_4">20sp</dimen>
+    <dimen name="font_5">24sp</dimen>
+    <dimen name="font_6">34sp</dimen>
+    <dimen name="font_7">45sp</dimen>
+    <dimen name="font_8">56sp</dimen>
+    <dimen name="font_9">112sp</dimen>
+
+
+    <dimen name="big_title_font">18sp</dimen>
+    <dimen name="big_button_font">16sp</dimen>
+    <dimen name="stitle_font">14sp</dimen>
+    <dimen name="small_text_font">13sp</dimen>
+    <dimen name="small_title_font">12sp</dimen>
+    <dimen name="formal_font">12sp</dimen>
+    <dimen name="small_text">11sp</dimen>
+    <dimen name="first_page_small_text">10sp</dimen>
+    <dimen name="navigation_bar_text">18sp</dimen>
+
+    <dimen name="app_bar_height">36.5dp</dimen>
+
+    <dimen name="sp_9">9sp</dimen>
+    <dimen name="sp_10">10sp</dimen>
+    <dimen name="sp_12">12sp</dimen>
+    <dimen name="sp_14">14sp</dimen>
+    <dimen name="sp_16">16sp</dimen>
+    <dimen name="sp_18">18sp</dimen>
+    <!--统一分割线单位-->
+    <dimen name="line">0.5dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!--常用高度单位-->
+    <dimen name="play_height">35dp</dimen>
+
+    <!--常规图标大小-->
+    <dimen name="icon_1">10dp</dimen>
+    <dimen name="icon_2">16dp</dimen>
+    <dimen name="icon_3">20dp</dimen>
+    <dimen name="icon_4">24dp</dimen>
+    <dimen name="icon_5">35dp</dimen>
+    <dimen name="icon_6">50dp</dimen>
+    <dimen name="icon_10">80dp</dimen>
+    <dimen name="icon_108">108dp</dimen>
+
+    <!--常规边距宽度-->
+    <dimen name="padding_1">6dp</dimen>
+    <dimen name="padding_2">8dp</dimen>
+    <dimen name="padding_3">16dp</dimen>
+    <dimen name="padding_4">21dp</dimen>
+
+    <!--常规列表单项高度-->
+    <dimen name="item_height_1">24dp</dimen>
+    <dimen name="item_height_2">36dp</dimen>
+    <dimen name="item_height_blank">35dp</dimen>
+    <dimen name="item_height_3">48dp</dimen>
+    <dimen name="item_height_4">65dp</dimen>
+    <dimen name="item_height_5">72dp</dimen>
+
+
+</resources>

@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+
+<html class=''>
+<head>
+    <meta name="viewport" content="width=device-width" charset="GBK">
+    <link rel="stylesheet" type="text/css" href="H5.css">
+    <script type="text/javascript" src="H5.js"></script>
+</head>
+<body>
+<div class="main">
+    <div class="top">
+        <img id ="image" src="default.png" />
+    </div>
+    <div class="middle">
+        <label id="speed">速度：</label>
+        <div class='toggle' id='switch'>
+            <div class='toggle-text-off'>OFF</div>
+            <div class='glow-comp'></div>
+            <div class='toggle-button'></div>
+            <div class='toggle-text-on'>ON</div>
+        </div>
+        <script src='jquery-1.11.0.min.js'></script>
+        <script>$('.toggle').click(function(e){
+            e.preventDefault(); // The flicker is a codepen thing
+        $(this).toggleClass('toggle-on');
+        });
+        </script>
+    </div>
+    <div class="button">
+
+        <div class="header">
+            <button onclick="goAhead()">↑</button>
+        </div>
+
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-1">
+                <button class="left_" onclick="goLeft()">←</button>
+            </div>
+            <div class="col-1">
+                <button class="open_" onclick="onAndOff()">◎</button>
+            </div>
+            <div class="col-1">
+                <button class="right_" onclick="goRight()">→</button>
+            </div>
+            <div class="col-1"></div>
+        </div>
+        <div class="bottom">
+            <button onclick="goBack()">↓</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>

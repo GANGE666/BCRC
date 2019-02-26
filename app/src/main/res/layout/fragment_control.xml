@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_bg"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:visibility="visible"
+        android:id="@+id/title_bar_act"
+        android:background="@color/color_white"
+        android:fitsSystemWindows="true" />
+
+    <include layout="@layout/header_layout" />
+    <com.example.whu.bcrc.view.RefreshableListView
+        android:id="@+id/rfl_control"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/color_bg</item>
+    </style>
+
+    <style name="AppTheme.TranslucentWindow">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.NoStatusBarColor" />
+
+
+    <style name="menuShows">
+        <item name="android:windowEnterAnimation">@anim/menu_in</item>
+        <item name="android:windowExitAnimation">@anim/menu_out</item>
+    </style>
+
+    <style name="Common">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Common.Divider">
+        <item name="android:background">@color/color_lin</item>
+    </style>
+
+    <style name="Common.Divider.Horizontal_1">
+        <item name="android:layout_height">@dimen/dp_1</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">#b0b0b0</item>
+    </style>
+
+    <style name="Common.Divider.Horizontal">
+        <item name="android:layout_height">@dimen/dp_1</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">#919191</item>
+    </style>
+
+    <style name="Common.Divider.Horizontal_Thin">
+        <item name="android:layout_height">@dimen/dp_0.5</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">#919191</item>
+    </style>
+
+    <style name="Common.Divider.Vertical">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">@dimen/line</item>
+        <item name="android:background">#b0b0b0</item>
+    </style>
+
+
+
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>
